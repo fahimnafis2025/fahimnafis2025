@@ -26,11 +26,11 @@
 ## 🧠 About Me
 
 - 🎓 **M.Sc Cybersecurity** — Fordham University | **B.Sc CSE** — BRAC University
-- 💼 **Graduate Assistant @ Fordham University** 
+- 💼 **Graduate Research Assistant @ Fordham University** 
 - 🤖 Authored and published **"Few Shot Intrusion Detection Using Siamese Networks for Zero Day Threats"** on IEEE Xplore
 - 🚀 Developed an automated **Red Teaming framework** for testing 8B-parameter LLMs against prompt injection attacks
-- 🔬 Invited associate member of the **Sigma Xi Scientific Research Honor Society**
-- 📍 Based in **Long Island, NY** — Open to hybrid or permanent opportunity
+- 🔬 Associate member of the **Sigma Xi Scientific Research Honor Society**
+- 📍 Based in **Long Island, NY** — Open to hybrid or permanent cybersec or IT opportunity
 
 ---
 
@@ -87,7 +87,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fahimnafis2025&theme=radical&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=fahimnafis2025&theme=radical&hide_border=true" />
 </p>
 
 ---
