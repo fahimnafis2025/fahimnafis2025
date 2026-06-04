@@ -79,6 +79,13 @@
 | ⛓️ **Federated Learning Reputation System** | Research project involving blockchain-based reputation systems utilizing the CICEV2023 dataset. | Python, Distributed Systems |
 ---
 
+
+## ODOMETER
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=fahimnafis2025&style=for-the-badge&color=8a2be2&label=PROFILE+VIEWS" alt="Profile Views Counter" />
+</p>
+
+
 ## 📈 GitHub Stats
 
 <p align="center">
