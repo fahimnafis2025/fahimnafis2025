@@ -23,7 +23,6 @@
 
   <rect width="1200" height="300" fill="url(#bg)"/>
 
-  <!-- faint grid + scanline -->
   <g stroke="#123024" stroke-width="1" opacity="0.4">
     <path d="M0 75 H1200 M0 150 H1200 M0 225 H1200"/>
     <path d="M300 0 V300 M600 0 V300 M900 0 V300"/>
@@ -32,24 +31,19 @@
     <animate attributeName="y" values="0;300;0" dur="6s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- soft orbs -->
   <circle cx="1050" cy="90" r="140" fill="url(#orb)"/>
   <circle cx="150" cy="240" r="120" fill="url(#orb)" opacity="0.7"/>
 
-  <!-- floating dots -->
   <g fill="#34d399">
     <circle cx="1080" cy="60" r="3"><animate attributeName="cy" values="60;48;60" dur="4s" repeatCount="indefinite"/></circle>
     <circle cx="1130" cy="130" r="2.5"><animate attributeName="cy" values="130;120;130" dur="5s" repeatCount="indefinite"/></circle>
     <circle cx="90" cy="70" r="2.5"><animate attributeName="cy" values="70;60;70" dur="4.5s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- kicker -->
   <text x="70" y="70" class="kick">CYBERSECURITY &#183; AUTOMATION &#183; AI</text>
 
-  <!-- name -->
   <text x="68" y="132" font-size="52" font-weight="800" fill="url(#name)">MD Fahim Nafis</text>
 
-  <!-- cycling role line (fades between 4 phrases) with a fixed prompt caret -->
   <text x="70" y="188" fill="#34d399" font-size="23" font-weight="700" font-family="'Consolas',monospace">&gt;</text>
   <g transform="translate(96,0)">
     <text x="0" y="188" class="role" opacity="1"><animate attributeName="opacity" values="1;1;1;0;0;0;0;0;0;1" keyTimes="0;0.2;0.24;0.26;0.5;0.74;0.76;0.98;0.99;1" dur="14s" repeatCount="indefinite"/>Security Automation Engineer</text>
@@ -58,13 +52,10 @@
     <text x="0" y="188" class="role" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;0.24;0.5;0.74;0.75;0.76;0.77;0.78;0.98;1" dur="14s" repeatCount="indefinite"/>LLM Red-Team &amp; AI-Assisted Triage</text>
   </g>
 
-  <!-- tagline -->
-  <text x="70" y="226" class="tag">M.Sc Cybersecurity, Fordham (4.0 GPA) &#183; IEEE-published &#183; Long Island, NY</text>
+  <text x="70" y="226" class="tag">M.Sc Cybersecurity &#183; Fordham    |    B.Sc Computer Science &amp; Engineering &#183; BRAC    |    New York</text>
 
-  <!-- quote -->
-  <text x="70" y="263" fill="#3f6f5f" font-size="14" font-style="italic">"Securing networks and LLMs — one homelab experiment at a time."</text>
+  <text x="70" y="263" fill="#3f6f5f" font-size="14" font-style="italic">"Zero Trust isn't paranoia when the logs keep proving you right."</text>
 
-  <!-- shield emblem -->
   <g transform="translate(1040,180)">
     <path d="M0 -46 L40 -30 V6 C40 34 22 50 0 58 C-22 50 -40 34 -40 6 V-30 Z"
           fill="#0d1c15" stroke="#34d399" stroke-width="2.5"/>

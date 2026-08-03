@@ -1,52 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="Key metrics: 4.0 GPA, 1 IEEE paper, 97 percent detection accuracy, 8B-parameter LLM red-teamed, 0 dollar homelab SOC">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="Highlights: 3 research papers, IEEE published, Sigma Xi member, 30-plus tools, free-tier SOC pipeline">
   <defs>
     <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#07130e"/>
       <stop offset="1" stop-color="#0a1712"/>
     </linearGradient>
     <style>
-      .num { fill:#6ee7b7; font-size:38px; font-weight:800; text-anchor:middle; }
-      .cap { fill:#7fae9a; font-size:13px; text-anchor:middle; }
+      .num { fill:#6ee7b7; font-size:34px; font-weight:800; text-anchor:middle; }
+      .cap { fill:#7fae9a; font-size:12.5px; text-anchor:middle; }
       .card{ fill:#0d1c15; stroke:#1e3a2c; stroke-width:1.5; }
     </style>
   </defs>
   <rect width="1200" height="140" rx="14" fill="url(#sbg)"/>
 
-  <!-- 5 metric cards -->
-  <g>
-    <!-- card 1 -->
-    <g transform="translate(30,25)">
-      <rect class="card" width="205" height="90" rx="10"/>
-      <text x="102" y="52" class="num">4.0<animate attributeName="opacity" values="0.4;1" dur="0.6s" fill="freeze"/></text>
-      <text x="102" y="76" class="cap">M.Sc GPA &#183; Fordham</text>
-    </g>
-    <!-- card 2 -->
-    <g transform="translate(255,25)">
-      <rect class="card" width="205" height="90" rx="10"/>
-      <text x="102" y="52" class="num">1&#215; IEEE<animate attributeName="opacity" values="0.4;1" dur="0.6s" fill="freeze"/></text>
-      <text x="102" y="76" class="cap">published paper</text>
-    </g>
-    <!-- card 3 -->
-    <g transform="translate(480,25)">
-      <rect class="card" width="205" height="90" rx="10"/>
-      <text x="102" y="52" class="num">97%<animate attributeName="opacity" values="0.4;1" dur="0.6s" fill="freeze"/></text>
-      <text x="102" y="76" class="cap">IDS detection accuracy</text>
-    </g>
-    <!-- card 4 -->
-    <g transform="translate(705,25)">
-      <rect class="card" width="205" height="90" rx="10"/>
-      <text x="102" y="52" class="num">8B<animate attributeName="opacity" values="0.4;1" dur="0.6s" fill="freeze"/></text>
-      <text x="102" y="76" class="cap">param LLM red-teamed</text>
-    </g>
-    <!-- card 5 -->
-    <g transform="translate(930,25)">
-      <rect class="card" width="240" height="90" rx="10"/>
-      <text x="120" y="52" class="num">$0<animate attributeName="opacity" values="0.4;1" dur="0.6s" fill="freeze"/></text>
-      <text x="120" y="76" class="cap">free-tier SOC pipeline</text>
-    </g>
+  <g transform="translate(30,25)">
+    <rect class="card" width="205" height="90" rx="10"/>
+    <text x="102" y="50" class="num">3&#215;</text>
+    <text x="102" y="76" class="cap">research papers</text>
+  </g>
+  <g transform="translate(255,25)">
+    <rect class="card" width="205" height="90" rx="10"/>
+    <text x="102" y="50" class="num">IEEE</text>
+    <text x="102" y="76" class="cap">published author</text>
+  </g>
+  <g transform="translate(480,25)">
+    <rect class="card" width="205" height="90" rx="10"/>
+    <text x="102" y="50" class="num" font-size="26">Sigma Xi</text>
+    <text x="102" y="76" class="cap">research honor society</text>
+  </g>
+  <g transform="translate(705,25)">
+    <rect class="card" width="205" height="90" rx="10"/>
+    <text x="102" y="50" class="num">30+</text>
+    <text x="102" y="76" class="cap">tools in the arsenal</text>
+  </g>
+  <g transform="translate(930,25)">
+    <rect class="card" width="240" height="90" rx="10"/>
+    <text x="120" y="50" class="num">$0</text>
+    <text x="120" y="76" class="cap">free-tier SOC pipeline</text>
   </g>
 
-  <!-- shimmer sweep across the strip -->
   <rect x="-200" y="0" width="200" height="140" fill="#34d399" opacity="0.06">
     <animate attributeName="x" values="-200;1200" dur="4s" repeatCount="indefinite"/>
   </rect>
