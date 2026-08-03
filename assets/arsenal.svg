@@ -1,65 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="The Arsenal: categorized security tools shelf">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="The Arsenal: categorized security tools">
 <defs>
   <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07130e"/><stop offset="1" stop-color="#0a1712"/></linearGradient>
   <style>
-    .cat  { fill:#6ee7b7; font-size:15px; font-weight:700; letter-spacing:1px; }
-    .chip { fill:#0f2018; stroke:#1e3a2c; stroke-width:1.2; }
-    .tool { fill:#c9f5e2; font-size:13px; font-weight:600; }
-    .dot  { fill:#34d399; }
+    .cat{fill:#6ee7b7;font-size:15px;font-weight:700;letter-spacing:1px;}
+    .chip{fill:#0f2018;stroke:#1e3a2c;stroke-width:1.2;}
+    .tool{fill:#c9f5e2;font-size:13px;font-weight:600;}
+    .dot{fill:#34d399;}
   </style>
 </defs>
-<rect width="1200" height="470" rx="14" fill="url(#abg)"/>
+<rect width="1200" height="780" rx="14" fill="url(#abg)"/>
 <text x="40" y="46" fill="#ecfdf5" font-size="22" font-weight="800">The Arsenal</text>
 <text x="185" y="46" fill="#5f8776" font-size="14">— industry-standard tools I actually run</text>
-<rect x="24" y="70" width="1152" height="70" rx="10" fill="#34d399" opacity="0.05"><animate attributeName="y" values="70;160;250;340;70" dur="8s" repeatCount="indefinite"/></rect>
-<text x="40" y="92" class="cat">SIEM &amp; DETECTION</text>
-<g transform="translate(40,104)">
+<rect x="24" y="62" width="1152" height="64" rx="10" fill="#34d399" opacity="0.05"><animate attributeName="y" values="62;152;242;332;422;512;602;692;62" dur="9s" repeatCount="indefinite"/></rect>
+<text x="40" y="70" class="cat">SIEM &amp; DETECTION</text>
+<g transform="translate(40,82)">
 <g transform="translate(0,0)"><rect class="chip" width="188" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Microsoft Sentinel</text></g>
 <g transform="translate(200,0)"><rect class="chip" width="128" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Defender XDR</text></g>
 <g transform="translate(340,0)"><rect class="chip" width="92" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Splunk</text></g>
-<g transform="translate(444,0)"><rect class="chip" width="92" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Wazuh</text></g>
-<g transform="translate(548,0)"><rect class="chip" width="72" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">KQL</text></g>
-<g transform="translate(632,0)"><rect class="chip" width="88" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Sysmon</text></g>
-<g transform="translate(732,0)"><rect class="chip" width="140" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">MITRE ATT&amp;CK</text></g>
+<g transform="translate(444,0)"><rect class="chip" width="108" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">SumoLogic</text></g>
+<g transform="translate(564,0)"><rect class="chip" width="92" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Wazuh</text></g>
+<g transform="translate(668,0)"><rect class="chip" width="72" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">KQL</text></g>
+<g transform="translate(752,0)"><rect class="chip" width="88" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Sysmon</text></g>
+<g transform="translate(852,0)"><rect class="chip" width="140" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">MITRE ATT&amp;CK</text></g>
 </g>
-<text x="40" y="182" class="cat">SOAR &amp; AUTOMATION</text>
-<g transform="translate(40,194)">
+<text x="40" y="160" class="cat">SOAR &amp; AUTOMATION</text>
+<g transform="translate(40,172)">
 <g transform="translate(0,0)"><rect class="chip" width="72" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">n8n</text></g>
 <g transform="translate(84,0)"><rect class="chip" width="150" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Azure Logic Apps</text></g>
 <g transform="translate(246,0)"><rect class="chip" width="90" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Docker</text></g>
 <g transform="translate(348,0)"><rect class="chip" width="120" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">PowerShell</text></g>
 <g transform="translate(480,0)"><rect class="chip" width="76" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Bash</text></g>
 <g transform="translate(568,0)"><rect class="chip" width="84" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Python</text></g>
-<g transform="translate(664,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">REST / JSON</text></g>
-<g transform="translate(788,0)"><rect class="chip" width="64" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Git</text></g>
+<g transform="translate(664,0)"><rect class="chip" width="108" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">LangChain</text></g>
+<g transform="translate(784,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">LangGraph</text></g>
+<g transform="translate(908,0)"><rect class="chip" width="64" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Git</text></g>
 </g>
-<text x="40" y="272" class="cat">THREAT INTEL &amp; DFIR</text>
-<g transform="translate(40,284)">
+<text x="40" y="250" class="cat">THREAT INTEL &amp; DFIR</text>
+<g transform="translate(40,262)">
 <g transform="translate(0,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">VirusTotal</text></g>
 <g transform="translate(124,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">AbuseIPDB</text></g>
 <g transform="translate(248,0)"><rect class="chip" width="100" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">DFIR-IRIS</text></g>
-<g transform="translate(360,0)"><rect class="chip" width="108" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">FTK Imager</text></g>
-<g transform="translate(480,0)"><rect class="chip" width="92" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Autopsy</text></g>
-<g transform="translate(584,0)"><rect class="chip" width="84" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Ghidra</text></g>
-<g transform="translate(680,0)"><rect class="chip" width="132" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Memory forensics</text></g>
+<g transform="translate(360,0)"><rect class="chip" width="84" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Snort</text></g>
+<g transform="translate(456,0)"><rect class="chip" width="96" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Suricata</text></g>
+<g transform="translate(564,0)"><rect class="chip" width="84" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">OSINT</text></g>
+<g transform="translate(660,0)"><rect class="chip" width="144" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Malware Analysis</text></g>
 </g>
-<text x="40" y="362" class="cat">OFFENSIVE &amp; PENTEST · KALI</text>
-<g transform="translate(40,374)">
+<text x="40" y="340" class="cat">DIGITAL FORENSICS</text>
+<g transform="translate(40,352)">
+<g transform="translate(0,0)"><rect class="chip" width="108" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">FTK Imager</text></g>
+<g transform="translate(120,0)"><rect class="chip" width="92" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Autopsy</text></g>
+<g transform="translate(224,0)"><rect class="chip" width="116" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Disk Imaging</text></g>
+<g transform="translate(352,0)"><rect class="chip" width="128" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Write-Blocking</text></g>
+<g transform="translate(492,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">File Hashing</text></g>
+<g transform="translate(616,0)"><rect class="chip" width="144" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Chain of Custody</text></g>
+</g>
+<text x="40" y="430" class="cat">OFFENSIVE &amp; PENTEST · KALI</text>
+<g transform="translate(40,442)">
 <g transform="translate(0,0)"><rect class="chip" width="100" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Kali Linux</text></g>
 <g transform="translate(112,0)"><rect class="chip" width="76" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Nmap</text></g>
 <g transform="translate(200,0)"><rect class="chip" width="104" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Metasploit</text></g>
 <g transform="translate(316,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">msfvenom</text></g>
 <g transform="translate(440,0)"><rect class="chip" width="102" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Burp Suite</text></g>
 <g transform="translate(554,0)"><rect class="chip" width="104" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Wireshark</text></g>
-<g transform="translate(670,0)"><rect class="chip" width="96" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">OpenVAS</text></g>
+<g transform="translate(670,0)"><rect class="chip" width="144" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">John the Ripper</text></g>
+<g transform="translate(826,0)"><rect class="chip" width="132" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Buffer Overflow</text></g>
 </g>
-<g transform="translate(40,424)">
-<text x="0" y="22" class="cat">CLOUD &amp; AI</text>
-<g transform="translate(130,0)"><rect class="chip" width="80" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Azure</text></g>
-<g transform="translate(222,0)"><rect class="chip" width="72" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">AWS</text></g>
-<g transform="translate(306,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Entra ID</text></g>
-<g transform="translate(430,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Cisco IOS</text></g>
-<g transform="translate(554,0)"><rect class="chip" width="152" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">PyTorch / TF</text></g>
-<g transform="translate(718,0)"><rect class="chip" width="156" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">LLM Red-Teaming</text></g>
+<text x="40" y="520" class="cat">AI / ML SECURITY</text>
+<g transform="translate(40,532)">
+<g transform="translate(0,0)"><rect class="chip" width="120" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">PyTorch / TF</text></g>
+<g transform="translate(132,0)"><rect class="chip" width="128" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Adversarial ML</text></g>
+<g transform="translate(272,0)"><rect class="chip" width="134" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Data Poisoning</text></g>
+<g transform="translate(418,0)"><rect class="chip" width="142" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Prompt Injection</text></g>
+<g transform="translate(572,0)"><rect class="chip" width="140" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Agent Hijacking</text></g>
+<g transform="translate(724,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">ViT / ResNet</text></g>
+<g transform="translate(848,0)"><rect class="chip" width="118" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Siamese Nets</text></g>
+<g transform="translate(978,0)"><rect class="chip" width="84" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Ollama</text></g>
+</g>
+<text x="40" y="610" class="cat">GRC &amp; RISK</text>
+<g transform="translate(40,622)">
+<g transform="translate(0,0)"><rect class="chip" width="96" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">NIST CSF</text></g>
+<g transform="translate(108,0)"><rect class="chip" width="92" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">OCTAVE</text></g>
+<g transform="translate(212,0)"><rect class="chip" width="72" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">FAIR</text></g>
+<g transform="translate(296,0)"><rect class="chip" width="120" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Risk Analysis</text></g>
+<g transform="translate(428,0)"><rect class="chip" width="76" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">BC/DR</text></g>
+<g transform="translate(516,0)"><rect class="chip" width="112" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">CIS Controls</text></g>
+</g>
+<text x="40" y="700" class="cat">RANGES &amp; PLATFORMS</text>
+<g transform="translate(40,712)">
+<g transform="translate(0,0)"><rect class="chip" width="120" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Hack The Box</text></g>
+<g transform="translate(132,0)"><rect class="chip" width="108" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">TryHackMe</text></g>
+<g transform="translate(252,0)"><rect class="chip" width="76" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">BTLO</text></g>
+<g transform="translate(340,0)"><rect class="chip" width="108" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">LetsDefend</text></g>
+<g transform="translate(460,0)"><rect class="chip" width="80" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Azure</text></g>
+<g transform="translate(552,0)"><rect class="chip" width="72" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">AWS</text></g>
+<g transform="translate(636,0)"><rect class="chip" width="96" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Entra ID</text></g>
+<g transform="translate(744,0)"><rect class="chip" width="96" height="34" rx="17"/><circle class="dot" cx="18" cy="17" r="4"/><text x="34" y="22" class="tool">Cisco IOS</text></g>
 </g>
 </svg>

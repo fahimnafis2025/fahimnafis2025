@@ -1,49 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="MD Fahim Nafis — Security Automation and SOC Engineer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07130e"/>
-      <stop offset="0.5" stop-color="#0a1712"/>
-      <stop offset="1" stop-color="#06110c"/>
+      <stop offset="0" stop-color="#07130e"/><stop offset="0.5" stop-color="#0a1712"/><stop offset="1" stop-color="#06110c"/>
     </linearGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#6ee7b7"/>
-      <stop offset="0.5" stop-color="#34d399"/>
-      <stop offset="1" stop-color="#10b981"/>
+      <stop offset="0" stop-color="#6ee7b7"/><stop offset="0.5" stop-color="#34d399"/><stop offset="1" stop-color="#10b981"/>
     </linearGradient>
     <radialGradient id="orb" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#34d399" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.5"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/>
     </radialGradient>
     <style>
-      .role  { fill:#a7f3d0; font-size:23px; font-weight:600; }
-      .tag   { fill:#5f8776; font-size:15px; }
-      .kick  { fill:#6ee7b7; font-size:13px; font-weight:600; letter-spacing:4px; }
+      .role{fill:#a7f3d0;font-size:23px;font-weight:600;}
+      .tag{fill:#5f8776;font-size:15px;}
+      .kick{fill:#6ee7b7;font-size:13px;font-weight:600;letter-spacing:4px;}
     </style>
   </defs>
-
   <rect width="1200" height="300" fill="url(#bg)"/>
-
   <g stroke="#123024" stroke-width="1" opacity="0.4">
-    <path d="M0 75 H1200 M0 150 H1200 M0 225 H1200"/>
-    <path d="M300 0 V300 M600 0 V300 M900 0 V300"/>
+    <path d="M0 75 H1200 M0 150 H1200 M0 225 H1200"/><path d="M300 0 V300 M600 0 V300 M900 0 V300"/>
   </g>
-  <rect x="0" y="0" width="1200" height="2" fill="#34d399" opacity="0.35">
-    <animate attributeName="y" values="0;300;0" dur="6s" repeatCount="indefinite"/>
-  </rect>
-
-  <circle cx="1050" cy="90" r="140" fill="url(#orb)"/>
-  <circle cx="150" cy="240" r="120" fill="url(#orb)" opacity="0.7"/>
-
+  <rect x="0" y="0" width="1200" height="2" fill="#34d399" opacity="0.35"><animate attributeName="y" values="0;300;0" dur="6s" repeatCount="indefinite"/></rect>
+  <circle cx="1050" cy="90" r="140" fill="url(#orb)"/><circle cx="150" cy="240" r="120" fill="url(#orb)" opacity="0.7"/>
   <g fill="#34d399">
     <circle cx="1080" cy="60" r="3"><animate attributeName="cy" values="60;48;60" dur="4s" repeatCount="indefinite"/></circle>
     <circle cx="1130" cy="130" r="2.5"><animate attributeName="cy" values="130;120;130" dur="5s" repeatCount="indefinite"/></circle>
     <circle cx="90" cy="70" r="2.5"><animate attributeName="cy" values="70;60;70" dur="4.5s" repeatCount="indefinite"/></circle>
   </g>
-
   <text x="70" y="70" class="kick">CYBERSECURITY &#183; AUTOMATION &#183; AI</text>
-
   <text x="68" y="132" font-size="52" font-weight="800" fill="url(#name)">MD Fahim Nafis</text>
-
   <text x="70" y="188" fill="#34d399" font-size="23" font-weight="700" font-family="'Consolas',monospace">&gt;</text>
   <g transform="translate(96,0)">
     <text x="0" y="188" class="role" opacity="1"><animate attributeName="opacity" values="1;1;1;0;0;0;0;0;0;1" keyTimes="0;0.2;0.24;0.26;0.5;0.74;0.76;0.98;0.99;1" dur="14s" repeatCount="indefinite"/>Security Automation Engineer</text>
@@ -51,17 +35,11 @@
     <text x="0" y="188" class="role" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;1;1;1;0;0" keyTimes="0;0.24;0.5;0.52;0.53;0.54;0.74;0.75;0.76;1" dur="14s" repeatCount="indefinite"/>SOAR &amp; Threat-Intel Automation</text>
     <text x="0" y="188" class="role" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;0.24;0.5;0.74;0.75;0.76;0.77;0.78;0.98;1" dur="14s" repeatCount="indefinite"/>LLM Red-Team &amp; AI-Assisted Triage</text>
   </g>
-
   <text x="70" y="226" class="tag">M.Sc Cybersecurity &#183; Fordham    |    B.Sc Computer Science &amp; Engineering &#183; BRAC    |    New York</text>
-
   <text x="70" y="263" fill="#3f6f5f" font-size="14" font-style="italic">"Zero Trust isn't paranoia when the logs keep proving you right."</text>
-
   <g transform="translate(1040,180)">
-    <path d="M0 -46 L40 -30 V6 C40 34 22 50 0 58 C-22 50 -40 34 -40 6 V-30 Z"
-          fill="#0d1c15" stroke="#34d399" stroke-width="2.5"/>
+    <path d="M0 -46 L40 -30 V6 C40 34 22 50 0 58 C-22 50 -40 34 -40 6 V-30 Z" fill="#0d1c15" stroke="#34d399" stroke-width="2.5"/>
     <path d="M-16 4 l11 12 l23 -27" fill="none" stroke="#6ee7b7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M0 -46 L40 -30 V6 C40 34 22 50 0 58 C-22 50 -40 34 -40 6 V-30 Z" fill="none" stroke="#34d399" stroke-width="2.5" opacity="0.6">
-      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.5s" repeatCount="indefinite"/>
-    </path>
+    <path d="M0 -46 L40 -30 V6 C40 34 22 50 0 58 C-22 50 -40 34 -40 6 V-30 Z" fill="none" stroke="#34d399" stroke-width="2.5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.5s" repeatCount="indefinite"/></path>
   </g>
 </svg>

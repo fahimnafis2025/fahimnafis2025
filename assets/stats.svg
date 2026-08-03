@@ -1,44 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="Highlights: 3 research papers, IEEE published, Sigma Xi member, 30-plus tools, free-tier SOC pipeline">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="Highlights: 3 research papers, IEEE published, Sigma Xi member, 55-plus tools, free-tier SOC pipeline">
   <defs>
-    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#07130e"/>
-      <stop offset="1" stop-color="#0a1712"/>
-    </linearGradient>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#07130e"/><stop offset="1" stop-color="#0a1712"/></linearGradient>
     <style>
-      .num { fill:#6ee7b7; font-size:34px; font-weight:800; text-anchor:middle; }
-      .cap { fill:#7fae9a; font-size:12.5px; text-anchor:middle; }
-      .card{ fill:#0d1c15; stroke:#1e3a2c; stroke-width:1.5; }
+      .num{fill:#6ee7b7;font-size:34px;font-weight:800;text-anchor:middle;}
+      .cap{fill:#7fae9a;font-size:12.5px;text-anchor:middle;}
+      .card{fill:#0d1c15;stroke:#1e3a2c;stroke-width:1.5;}
     </style>
   </defs>
   <rect width="1200" height="140" rx="14" fill="url(#sbg)"/>
-
-  <g transform="translate(30,25)">
-    <rect class="card" width="205" height="90" rx="10"/>
-    <text x="102" y="50" class="num">3&#215;</text>
-    <text x="102" y="76" class="cap">research papers</text>
-  </g>
-  <g transform="translate(255,25)">
-    <rect class="card" width="205" height="90" rx="10"/>
-    <text x="102" y="50" class="num">IEEE</text>
-    <text x="102" y="76" class="cap">published author</text>
-  </g>
-  <g transform="translate(480,25)">
-    <rect class="card" width="205" height="90" rx="10"/>
-    <text x="102" y="50" class="num" font-size="26">Sigma Xi</text>
-    <text x="102" y="76" class="cap">research honor society</text>
-  </g>
-  <g transform="translate(705,25)">
-    <rect class="card" width="205" height="90" rx="10"/>
-    <text x="102" y="50" class="num">30+</text>
-    <text x="102" y="76" class="cap">tools in the arsenal</text>
-  </g>
-  <g transform="translate(930,25)">
-    <rect class="card" width="240" height="90" rx="10"/>
-    <text x="120" y="50" class="num">$0</text>
-    <text x="120" y="76" class="cap">free-tier SOC pipeline</text>
-  </g>
-
-  <rect x="-200" y="0" width="200" height="140" fill="#34d399" opacity="0.06">
-    <animate attributeName="x" values="-200;1200" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <g transform="translate(30,25)"><rect class="card" width="205" height="90" rx="10"/><text x="102" y="50" class="num">3&#215;</text><text x="102" y="76" class="cap">research papers</text></g>
+  <g transform="translate(255,25)"><rect class="card" width="205" height="90" rx="10"/><text x="102" y="50" class="num">IEEE</text><text x="102" y="76" class="cap">published author</text></g>
+  <g transform="translate(480,25)"><rect class="card" width="205" height="90" rx="10"/><text x="102" y="50" class="num" font-size="26">Sigma Xi</text><text x="102" y="76" class="cap">research honor society</text></g>
+  <g transform="translate(705,25)"><rect class="card" width="205" height="90" rx="10"/><text x="102" y="50" class="num">55+</text><text x="102" y="76" class="cap">tools in the arsenal</text></g>
+  <g transform="translate(930,25)"><rect class="card" width="240" height="90" rx="10"/><text x="120" y="50" class="num">$0</text><text x="120" y="76" class="cap">free-tier SOC pipeline</text></g>
+  <rect x="-200" y="0" width="200" height="140" fill="#34d399" opacity="0.06"><animate attributeName="x" values="-200;1200" dur="4s" repeatCount="indefinite"/></rect>
 </svg>
