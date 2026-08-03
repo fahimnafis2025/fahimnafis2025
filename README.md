@@ -1,104 +1,81 @@
-<h1 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" />
-  Hi, I'm MD Fahim Nafis
-</h1>
+<!-- ============================================================= -->
+<!--  PROFILE README — fahimnafis2025                              -->
+<!-- ============================================================= -->
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=4ABA25&center=true&vCenter=true&width=600&lines=Cybersecurity+Researcher;M.Sc+Cybersecurity+%7C+New+York;LLM+Security+%7C+Penetration+Testing;Securing+AI+systems+%F0%9F%9A%80">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=4ABA25&center=true&vCenter=true&width=600&lines=Cybersecurity+Researcher;M.Sc+Cybersecurity+%7C+New+York;LLM+Security+%7C+Penetration+Testing;Securing+AI+systems+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
+  <img src="assets/header.svg" alt="MD Fahim Nafis — Security Automation & SOC Engineer" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/fahimnafis">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/fahimnafis2025">
-    <img src="https://img.shields.io/badge/GitHub-12100E?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:fahimnafis2022@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+  <a href="https://linkedin.com/in/fahimnafis"><img src="https://img.shields.io/badge/LinkedIn-fahimnafis-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:fahimnafis2022@gmail.com"><img src="https://img.shields.io/badge/Email-reach%20me-10B981?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/Location-Long%20Island,%20NY-064E3B?style=for-the-badge&logo=googlemaps&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-Open%20to%20work-34D399?style=for-the-badge">
 </p>
 
 ---
 
-## 🧠 About Me
+## whoami
 
-- 🎓 **M.Sc Cybersecurity** — Fordham University | **B.Sc CSE** — BRAC University
-- 💼 **Graduate Research Assistant @ Fordham University** 
-- 🤖 Authored and published **"Few Shot Intrusion Detection Using Siamese Networks for Zero Day Threats"** on IEEE Xplore
-- 🚀 Developed an automated **Red Teaming framework** for testing 8B-parameter LLMs against prompt injection attacks
-- 🔬 Associate member of the **Sigma Xi Scientific Research Honor Society**
-- 📍 Based in **Long Island, NY** — Open to hybrid or permanent cybersec or IT opportunity
+```text
+$ whoami
+MD Fahim Nafis — Security Automation Engineer / SOC & Detection Engineer
+```
+
+I build the **first ten minutes of an analyst's day** as code. My focus is the blue-team automation layer: SIEM detection engineering, SOAR pipelines, threat-intel enrichment, and AI-assisted triage — the plumbing that turns a raw alert into a decision-ready case before a human ever looks at it.
+
+- **M.Sc Cybersecurity** — Fordham University (4.0 GPA) · **B.Sc CSE** — BRAC University
+- **Graduate Research Assistant** @ Fordham — ML-based intrusion detection research
+- **IEEE-published**: *Few-Shot Intrusion Detection Using Siamese Networks for Zero-Day Threats* (WF-PST 2025)
+- Associate Member, **Sigma Xi** Scientific Research Honor Society
+- **CompTIA Security+** & **Microsoft SC-200** — in progress (exams scheduled)
+- Based in **Long Island, NY** — open to hybrid or on-site, authorized to work in the U.S. (EAD)
 
 ---
 
-## ⚡ Tech Stack
-
-### 🛡️ Cybersecurity & Networking
-<p>
-  <img src="https://img.shields.io/badge/Wazuh-00A9E5?style=for-the-badge&logo=wazuh&logoColor=white" />
-  <img src="https://img.shields.io/badge/Live_Forensicator-FF0000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenVAS-4EAA25?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Independent_Forensic_Investigation-333333?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Nmap-222222?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" />
-</p>
-
-### 🤖 AI / ML
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
-</p>
-
-### ☁️ Cloud 
-<p>
-  <img src="https://img.shields.io/badge/Azure_IAM-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Network_Security-0089D6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Resource_Group_Management-0089D6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AWS_Pentest_(flAWS)-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+<p align="center">
+  <img src="assets/stats.svg" alt="Key metrics: 4.0 GPA, IEEE paper, 97% detection accuracy, 8B-parameter LLM red-teamed, $0 free-tier SOC pipeline" width="100%">
 </p>
 
 ---
 
-## 🏆 Highlight Projects
+<p align="center">
+  <img src="assets/arsenal.svg" alt="The Arsenal — categorized security tools" width="100%">
+</p>
 
-| Project | Description | Stack |
+---
+
+## Highlight projects
+
+| Project | What it does | Stack |
 |---|---|---|
-| 🛡️ **[8B-LLM-Prompt-Injection-Automation](https://github.com/fahimnafis2025/8B-LLM-Prompt-Injection-Automation)** | Automated Red Teaming framework designed for testing 8B-parameter LLMs against prompt injection attacks. | Python, Self-hosted LLMs |
-| ⚙️ **[Auto-Payload-Delivery](https://github.com/fahimnafis2025/Auto-Payload-Delivery)** | Bash-based automation tool built to streamline and integrate with security testing frameworks. | Bash, Linux |
-| 📄 **Few Shot Intrusion Detection** | Published research on IEEE Xplore utilizing Siamese Networks to detect zero-day threats. | Python, ML Frameworks |
-| 📶 **CSI WiFi Biometrics** | CSI-driven human identification and authentication system using the WiPer81 dataset; submitted to KES2026. | Python, ML Frameworks |
-| ⛓️ **Federated Learning Reputation System** | Research project involving blockchain-based reputation systems utilizing the CICEV2023 dataset. | Python, Distributed Systems |
----
-
-
-## ODOMETER
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=fahimnafis2025&style=for-the-badge&color=8a2be2&label=PROFILE+VIEWS" alt="Profile Views Counter" />
-</p>
-
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fahimnafis2025&layout=compact&theme=radical&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api?username=fahimnafis2025&show_icons=true&theme=radical&hide_border=true&count_private=true" height="160" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=fahimnafis2025&theme=radical&hide_border=true" />
-</p>
+| **[SOC Automation Lab](https://github.com/fahimnafis2025/soc-automation-splunk-dfriris)** | End-to-end SOAR pipeline: detects a real Windows attack, enriches with VirusTotal + AbuseIPDB, triages with an AI analyst, and lands a decision-ready case in Slack + DFIR-IRIS. Free-tier throughout. | Splunk · n8n · VirusTotal · AbuseIPDB · Gemini · DFIR-IRIS |
+| **Cloud-Native SOC & IR Lab** | Architected a cloud-native SOC in Azure: ingested 1,200+ daily endpoint logs into Microsoft Sentinel, authored KQL analytic/hunting rules mapped to MITRE ATT&CK, and automated containment with SOAR playbooks. | Azure · Sentinel · Defender XDR · KQL · Logic Apps |
+| **8B-LLM Prompt-Injection Automation** | Automated red-teaming framework for testing 8B-parameter self-hosted LLMs against prompt-injection attacks. | Python · Self-hosted LLMs |
+| **Few-Shot Intrusion Detection** *(IEEE)* | Siamese networks + few-shot learning on CICIDS-2017 for zero-day detection — 97% test accuracy, 35% reduction in false-positive triage time. | Python · ML frameworks |
+| **WiFi CSI Biometrics** | Privacy-preserving human identification/authentication from WiFi CSI signals — submitted to KES 2026. | Python · ML frameworks |
 
 ---
 
+## What I'm about
+
+- **Detection engineering over dashboards.** A good detection that fires clean beats ten noisy ones. I tune for signal.
+- **Automation that stays honest.** My AI-triage pipelines are guard-railed to separate confirmed facts from inference — a SOAR flow that overclaims is worse than none.
+- **Homelab-first.** I learn by building the real thing on free tiers and writing the click-by-click docs so others can replicate it.
+
+---
+
+## GitHub stats
+
 <p align="center">
-  <i>"Securing networks and LLMs — one homelab experiment at a time."</i>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=fahimnafis2025&show_icons=true&hide_border=true&title_color=34d399&icon_color=6ee7b7&text_color=c9f5e2&bg_color=0a1712">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fahimnafis2025&layout=compact&hide_border=true&title_color=34d399&text_color=c9f5e2&bg_color=0a1712">
 </p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fahimnafis2025&hide_border=true&background=0a1712&stroke=1e3a2c&ring=34d399&fire=6ee7b7&currStreakLabel=34d399&sideLabels=c9f5e2&dates=5f8776&currStreakNum=6ee7b7&sideNums=6ee7b7">
+</p>
+
+---
+
+<p align="center"><sub>"Securing networks and LLMs — one homelab experiment at a time."</sub></p>
