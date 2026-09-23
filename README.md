@@ -30,7 +30,6 @@ MD Fahim Nafis — Security Automation Engineer / SOC & Detection Engineer
 - **IEEE-published** author · **3 research papers** across intrusion detection & applied ML security
 - Associate Member, **Sigma Xi** Scientific Research Honor Society
 - Based in **New York** — open to hybrid or on-site, authorized to work in the U.S. (EAD)
-- ResearchGate Profile - https://scholar.google.com/citations?user=ykOJ8bsAAAAJ&hl=en&oi=ao
 - Google Scholar Profile- https://scholar.google.com/citations?user=ykOJ8bsAAAAJ&hl=en&oi=ao
 ---
 
